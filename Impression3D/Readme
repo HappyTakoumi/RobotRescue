@@ -50,4 +50,5 @@ Nous réalisons un traitement sur la chaine de caractères, on vérifie le premi
 On place ensuite on reconstuit ensuite la chaine de cacactère que l'on place dans la bonne variable joyX ou joyY.
 On envoie cette valeur sur la liaision série pour le lire avec minicom sur la Pi
 Après chaque appel de l'interuption, il ne faut pas oublié de rappeler HAL_UART_Receive_IT(&huart1, &pData, 1) pour le prochain caractère.
-Pour la position X nous avons créer une fonction ( non opérationnel) pour transformé la position en un temps de comparaison pour le signal PWM du servomoteur.
+Pour la position X nous avons créer une fonction ( non opérationnel) pour transformé la position (+/-32767) en un temps de comparaison pour le signal PWM du servomoteur (1250->1650).
+Nous avions en effet testé notre servomoteur et rémarqué que pour avoir les roues droite il nous fallait une impulsion de 1450 µs et le min et max (gauche / droite) était d'environs 1250 et 1650.
