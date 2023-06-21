@@ -1,6 +1,6 @@
 Connexion Pi:
 Lister les adresses IP du sous-réseau : 
-sudo nmap -sP 192.168.88.0/24
+sudo nmap -sP 192.168.88.0/24 (penser a modifier le masque pour votre sous-réseaux)
 se connecter en ssh :
 ssh pi@<a>
 
