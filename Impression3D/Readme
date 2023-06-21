@@ -7,7 +7,9 @@ Code cpp:
 
 Code Stm32:
 Dans un premier temps nous avons configurer un timer pour nous fournir un signal PWM.
-Grace à la fonction __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, x) nous pouvons configurer la largeur de l'impulsion.
+Horloge 80MHz
+Prescaler tim1 => 80-1 /Period => 20000-1  ==> Impulsion toutes les 20 ms
+Grace à la fonction __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, x) nous pouvons configurer la largeur de l'impulsion avec x en µs et compris entre 1ms(0°) et 2ms(180°)
 C'est signaux nous servirons pour le servomoteur et le moteur bruschless.
 
 Nous avons créer un code qui utilise les interuptions sur l'uart pour lire les caractères qui arrivent.
