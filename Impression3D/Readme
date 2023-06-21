@@ -1,8 +1,19 @@
-Connexion pi:
+Connexion Pi:
+Lister les adresses IP du sous-réseau : 
+sudo nmap -sP 192.168.88.0/24
+se connecter en ssh :
+ssh pi@<a>
 
+Utile:
+Copier du PC vers la pi :
+scp -r /trucacopiersurlepc pi@<adresse_ip>:/dossier/
+
+mannete pi:
+Installation ou mise a jours des drivers => sudo apt-get install xboxdrv
+Installation du package joystick => sudo apt-get install joystick
 
 Code cpp:
-
+Nous avonc repris un code en cpp pour la partie lecture de la manette et envoie des information dans la liasions série.
 
 
 Code Stm32:
