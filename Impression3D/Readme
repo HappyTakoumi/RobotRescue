@@ -7,8 +7,9 @@ Code cpp:
 
 Code Stm32:
 Dans un premier temps nous avons configurer un timer pour nous fournir un signal PWM.
-Grace à la fonction __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, x) nous pouvons configurer la largeur de l'impulsion
+Grace à la fonction __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, x) nous pouvons configurer la largeur de l'impulsion.
+C'est signaux nous servirons pour le servomoteur et le moteur bruschless.
 
 Nous avons créer un code qui utilise les interuptions sur l'uart pour lire les caractères qui arrivent.
-Nous réalisons un traitement sur la chaine de caractères, on vérifie le premier caractère pour savoir si c'est la chaine de charactère est pour la position x ou y puis on on place la valeur dans la bonne variable.
+Nous réalisons un traitement sur la chaine de caractères, on vérifie le premier caractère pour savoir si c'est la chaine de caractère est pour la position x ou y puis on on place la valeur dans la bonne variable.
 Pour la position X nous avons créer une fonction ( non opérationnel) pour transformé la position en un temps de comparaison pour le signal PWM du servomoteur.
