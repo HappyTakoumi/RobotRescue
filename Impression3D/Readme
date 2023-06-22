@@ -1,1 +1,13 @@
+Pour la partie Impression 3D, 3 parties on pu se distinguer : 
+  - Impression du chassis de la voiture avec un modèle prit sur Internet,
+  - Création et impression des pièces spécifique au projet,
+  - Montage de toute la voiture.
 
+Pour la partie 1, j'ai trouvé sur YouTube une personne qui à design une voiture de RC miniature permettant de se faufiler un peu partout et de rouler très vite.
+Dans les contrainte de notre projet, il fallait que la voiture soit limitée en taille afin de pouvoir aller dans les décombres pour trouver les victimes. 
+Après une bonne 20aine d'heures d'impressions et quelques pièces en rab pour éviter une panne lors des tests réels, nous avions enfin le premier prototype de la voiture.
+
+J'ai du après ca acheter tout les outils me permettant de monter tout cela : visserie, roulement, colle...
+
+Après alors monté et ajusté au mm la voiture pour qu'elle roule sans soucis et avec le moins de frottement possible, j'ai du créer des pièces supplémentaires pour supporter la batterie et la PI. Les 
+fichiers STL sont dans les autres dossiers.
