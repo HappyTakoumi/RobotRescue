@@ -1,1 +1,4 @@
 Ici tu trouveras de quoi faire fonctionner un GPS sur une carte STM32 !
+Pour développer cette fonctionnalité plus rapidement je me suis servi d'une librarie trouvée sur github : https://github.com/nimaltd/NMEA. Cette librairie est opérationnelle et utilisée dans le main. 
+Il y a deux répertoires : Nucleo et F7Disco. Le code sur F7Disco est plus complet car j'ai commencé à développer pour cette carte. Je suis passé à la carte Nucleo car elle est moins encombrante. 
+Je conseille donc de mettre les fonctions développées dans le main de F7Disco dans celui de Nucleo. 
